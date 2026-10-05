@@ -1,0 +1,150 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "v_TVxJ6x0ZRa",
+        "outputId": "73853c00-94f9-4ca7-af13-8c722d47ca68"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Welcome to Business Analytics\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Welcome to Business Analytics\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "price = 500\n",
+        "quantity = 10\n",
+        "sales = price * quantity\n",
+        "if sales > 4000:\n",
+        "  print(\"Good Sales\")\n",
+        "else:\n",
+        "    print(\"Low Sales\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UpGCFaur01f0",
+        "outputId": "0007840f-35ba-433b-f153-b42899e75d4d"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Good Sales\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Number Type\n",
+        "#1. Integer\n",
+        "age = 25\n",
+        "print(age)\n",
+        "print(type(age))\n",
+        "\n",
+        "#2. Float\n",
+        "price = 99.50\n",
+        "print(price)\n",
+        "print(type(price))\n",
+        "\n",
+        "#3. Complex\n",
+        "z = 3 +4j\n",
+        "print(z)\n",
+        "print(type(z))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Q_b1opE51N0W",
+        "outputId": "46d5eeef-d9c2-4156-8c16-6c28b468c581"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "25\n",
+            "<class 'int'>\n",
+            "99.5\n",
+            "<class 'float'>\n",
+            "(3+4j)\n",
+            "<class 'complex'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "price = 500\n",
+        "quantity = 10\n",
+        "sales = price - quantity\n",
+        "if sales > 4000:\n",
+        "  print(\"Good Sales\")\n",
+        "else:\n",
+        "    print(\"Low Sales\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bL9gFPIz1g_4",
+        "outputId": "0d6c5722-0c78-4b3b-fe79-68ba7b514a75"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Low Sales\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "sB7b3O__1oex"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
